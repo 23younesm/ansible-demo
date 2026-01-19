@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt install python3-venv sshpass python3-pip -y
 
-cd /home/ubuntu/repo
+cd /home/ubuntu/ansible-demo
 sudo chmod 600 keys/workshop-key.pem
 python3 -m venv venv
 source ./venv/bin/activate
