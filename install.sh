@@ -1,7 +1,8 @@
 #!/bin/bash
 sudo apt install python3-venv sshpass python3-pip -y
 
-cd /home/ubuntu/
+cd /home/ubuntu/repo
+sudo chmod 600 keys/workshop-key.pem
 python3 -m venv venv
 source ./venv/bin/activate
 pip install -r requirements.txt
