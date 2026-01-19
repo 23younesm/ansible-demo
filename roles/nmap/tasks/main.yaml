@@ -1,0 +1,6 @@
+---
+- name: Install NMAP
+  package:
+    name: nmap
+    state: present
+  become: yes
