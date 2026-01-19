@@ -1,0 +1,7 @@
+---
+- name: Test Playbook
+  hosts: linux
+  become: true
+  roles:
+    - curl
+    - ssh

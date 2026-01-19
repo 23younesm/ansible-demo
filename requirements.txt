@@ -1,0 +1,9 @@
+pycdlib
+lxml
+xmljson>=0.1.8
+passlib
+ansible
+jmespath
+jsonschema
+netaddr
+pywinrm

@@ -1,0 +1,5 @@
+- name: Install ssh
+  package:
+    name: ssh
+    state: present
+  become: yes
