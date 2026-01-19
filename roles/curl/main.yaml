@@ -1,5 +1,5 @@
-- name: Install ssh
+- name: Install curl
   package:
-    name: ssh
+    name: curl
     state: present
   become: yes
